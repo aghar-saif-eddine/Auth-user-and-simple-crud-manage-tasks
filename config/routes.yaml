@@ -1,0 +1,10 @@
+app_tasks:
+  resource: App\Controller\TaskController
+  type: annotation
+
+auth_user:
+  resource: App\Controller\UserController
+  type: annotation
+
+api_login_check:
+  path: /api/login_check
